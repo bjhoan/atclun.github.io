@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>actividad 04</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style03.css"/>
+        <style type="text/css">
+            @font-face {
+                font-family: "QuickSandBook";
+                src: url("fonts/Quicksand_Book-webfont.eot");
+                src: url("fonts/Quicksand_Book-webfont-eot?#iefix") format("embedded-opentype"),
+                url("fonts/Quicksand_Book-webfont.woff") format("woff"), url("fonts/Quicksand_Book-webfont.tff")
+                format("truetype"), url("fonts/quicksand_Book-webfont.svg#QuicksandBook") format("svg");
+                font-weight: normal;
+                font-style: normal;
+            }
+            body {
+                color: #fff;
+                background:#413f3b url("IMG/graywall.jpg") ;
+                font-family: Garamond, serif;
+                font-size: 90%;
+                margin: 0px;
+                text-align: center;
+            }
+            a {
+                color: #b5c1ad;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #fff;
+            }
+            .header{
+                background-image: url("IMG/gheader.jpg");
+                padding: 0px 0px 0px 0px;
+                height: 100px;
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                z-index: 50;
+            }
+            .nav{
+                float: right;
+                font-family: 'Brush Script MT', cursive;
+                padding: 45px 0px 0px 0px;
+                text-align: right;
+            }
+            .wrapper{
+                width: 960px;
+                margin: 0px auto;
+                background-image: url(IMG/trian_boton.png);
+                background-repeat: no-repeat;
+                background-position: 0px 0px;
+                text-align: left;
+            }
+            .logo{
+                margin-top: 20px;
+            }
+            h1, h2{
+                font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            h1{
+                font-size: 240%;
+                margin-top: 140px;
+            }
+            .date{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 75%;
+                color: #b5c1ad;
+            }
+            .intro{
+                clear: left;
+                font-size: 90%;
+                line-height: 1.4em;
+            }
+            .main-story{
+                background-image: url(IMG/triangles.png);
+                background-repeat: no-repeat;
+                background-position: 122px 142px;
+                height: 570px;
+            }
+            .more-articles{
+                border-top: 1px solid #fff;
+                padding: 10px;
+            }
+            .more-articles p{
+                border-bottom: 1px solid #807c72;
+                padding: 5px 0px 15px 0px;
+                font-size: 80%;
+            }
+            .more-articles p:last-child{
+                border-bottom: none;
+            }
+            .footer{
+                clear: both;
+                background: rgba(0, 0, 0, 0);
+                padding: 5px 10px;
+            }
+            .footer p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 75%;
+                text-align: right;
+            }
+            .footer a{
+                color: #807c72;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container_12">
+                <div class="grid_5">
+                    <img src="IMG/logo.png" alt="Pedal Faster - The modern bicycle magazine" width="370" height="200" class="logo"/>
+                    <img src="IMG/header-triangle.png" alt="trian" width="116" height="100"/>
+                </div>
+                <div class="nav grid_7">
+                    <a href="Index.html">inicio</a> / <a href="https://www.eltiempo.com/"> noticias</a> / <a href="https://www.eltiempo.com/ultimas-noticias">archivos</a> / <a href="https://universitariadecolombia.edu.co/universidad/#:~:text=Visi%C3%B3n%20Institucional,sus%20procesos%20acad%C3%A9micos%20y%20administrativos.">acerca de</a> / <a href="https://universitariadecolombia.edu.co/carreras-profesionales/ingenieria-de-software/?gclid=Cj0KCQjw2v-gBhC1ARIsAOQdKY3K7yQ_xjBrdh_yQ7LKsV_Cqd1edULHVtxvEjHaNL-iq4-T5yaKfQcaAsC9EALw_wcB">contacto</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="main_story container_12">
+                <div class="grid_6 push_6">
+                    <h1><a href="https://www.eltiempo.com/vida/medio-ambiente/colombia-se-une-a-la-hora-del-planeta-para-proteger-la-naturaleza-753284">Solo un cambio</a></h1>
+                </div>
+                <div class="intro grid_3 push_9">
+                    <p class="date">Abril 16 2022</p>
+                    <P>«Despertar con el canto de las aves» es una frase que muchos hemos escuchado, 
+                        haciendo alusión a la gente que suele iniciar su día temprano, al igual que los pájaros, que, 
+                        si en algún momento has madrugado sabrás que, son animales que suelen tener una gran actividad en las primeras horas del día, 
+                        justo antes del amanecer.
+                    </P>
+                    <p>Por las mañanas se puede apreciar el trinar de los pájaros, 
+                        lo que hace despertar nuestra curiosidad y cuestionarnos por qué 
+                        no cantan durante todo el día. <a href="https://ensedeciencia.com/2023/03/26/por-que-los-pajaros-pian-por-las-mananas-y-tardes-los-motivos-detras-de-este-peculiar-horario-de-canto/">Continuar leyendo...</a></p>
+                </div>
+            </div>
+            <div class="more-articles container_12">
+                <h2 class="grid_12"><a href="https://www.energias-renovables.com/panorama/el-nuevo-mito-de-la-tecnociencia-la-20230324">Mas articulos</a></h2>
+                <div class="grid_3">
+                    <img src="IMG/more2.jpg" alt="science" width="220" height="125" />
+                    <p><a href="https://news.un.org/es/story/2023/03/1519672">Viajar al espacio ya no es ciencia ficcion</a></p>
+                    <p><a href="https://elpais.com/ciencia/2023-03-26/las-misteriosas-gargantuas-que-controlan-nuestras-galaxias.html">Las misteriosas gargantuas que controlan nuestra galaxia</a></p>
+                </div>
+                <div class="grid_3">
+                    <img src="IMG/more3.jpg" alt="sea" width="220" height="125" />
+                    <p><a href="https://www.elnuevosiglo.com.co/articulos/03-18-2023-identifican-una-ola-de-calor-en-el-fondo-del-oceano">Ola de calor en el oceano</a></p>
+                    <p><a href="https://www.mundodeportivo.com/urbantecno/ciencia/tenir-el-oceano-de-rosa-parece-una-aberracion-pero-estamos-haciendolo-por-su-propio-bien">Oceano de rosa</a></p>
+                </div>
+                <div class="grid_3">
+                    <img src="IMG/more4.jpg" alt="tech" width="220" height="125" />
+                    <p><a href="https://www.eltiempo.com/mundo/latinoamerica/el-salvador-nayib-bukele-propone-eliminar-los-impuestos-a-la-tecnologia-753262">No mas impuestos en la tecnologia</a></p>
+                    <p><a href="https://www.3djuegos.com/pc/noticias/competir-nvidia-dificil-amd-quiere-llevar-a-cabo-su-tecnologia-estrella-que-aumenta-fps-juegos-fsr-3-sera-mejor-retrocompatible">NVIDIA vs AMD</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12"><a href="https://universitariadecolombia.edu.co/universidad/#:~:text=Visi%C3%B3n%20Institucional,sus%20procesos%20acad%C3%A9micos%20y%20administrativos.">Informacion Legal</a> | <a href="https://universitariadecolombia.edu.co/universidad/#:~:text=Visi%C3%B3n%20Institucional,sus%20procesos%20acad%C3%A9micos%20y%20administrativos.">POliticas de privacidad</a> | <a href="https://universitariadecolombia.edu.co/universidad/#:~:text=Visi%C3%B3n%20Institucional,sus%20procesos%20acad%C3%A9micos%20y%20administrativos.">Copyright &copy; Jhoan Steven Picon 2023</a> </p>
+            </div>
+        </div>
+    </body>
+</html>
