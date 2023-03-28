@@ -9,9 +9,9 @@ figcaption {
     display: block;
 }
 body{
-    color: #666;
+    color: #000;
     background-color: #f9f8f6;
-    background-image: url(../IMG/dark-wood.jpg);
+    background-image: url(../IMG/foodwall.jpg);
     background-position: center;
     font-family: georgia, times, serif;
     line-height: 1.4em;
