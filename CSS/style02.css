@@ -85,11 +85,11 @@ aside section a{
     border-bottom: 1px solid #eee;
 }
 aside section a:hover {
-    color: #985d6a;
+    color: #38B529;
     background-color: #efefef;
 }
 a {
-    color: #de6581;
+    color: #38B529;
     text-decoration: none;
 }
 h1,
@@ -103,11 +103,11 @@ h2 {
 }
 h3 {
     margin: 0px 0px 10px 0px;
-    color: #de6581;
+    color: #38B529;
 }
 aside h2{
     padding: 30px 0px 10px 0px;
-    color: #de6581;
+    color: #38B529;
 }
 footer{
     font-size: 80%;
